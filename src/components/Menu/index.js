@@ -5,10 +5,10 @@ export default function Menu() {
     return (
         <header>
             <nav className={styles.navegacao}>
-                <MenuLink to="/">Início</MenuLink>
-                <MenuLink to="/criar">Criar</MenuLink>
-                <MenuLink to="/alterar">Alterar</MenuLink>
-                <MenuLink to="/apagar">Apagar</MenuLink>
+                <MenuLink to="/">Home</MenuLink>
+                <MenuLink to="/create">Create</MenuLink>
+                <MenuLink to="/update">Update</MenuLink>
+                <MenuLink to="/delete">Delete</MenuLink>
             </nav>
         </header>
     );
