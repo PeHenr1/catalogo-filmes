@@ -10,8 +10,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Menu/>
+    <BrowserRouter >
+      <Menu />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/create' element={<Create />} />

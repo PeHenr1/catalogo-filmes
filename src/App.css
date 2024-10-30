@@ -1,0 +1,22 @@
+label,
+input,
+input::placeholder,
+p {
+    font-family: 'Lexend';
+}
+
+
+.hover-effect {
+    transition: background-color 0.3s;
+}
+
+.hover-effect:hover {
+    background-color: #ffb8b8 !important;
+}
+
+hr {
+    width: 75%;
+    color: white;
+    border: 2px solid white;
+}
+
