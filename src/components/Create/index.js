@@ -22,10 +22,10 @@ function Create() {
   return (
     <div className='d-flex justify-content-center pb-5 mb-5'>
       <div className='w-50 border bg-light shadow px-5 pt-3 pb-5 rounded'>
-        <h1 className='text-center mt-4'>Create movie</h1>
+        <h1 className='text-center mt-4'>Add movie</h1>
         <form onSubmit={handleSubmit}>
           <div className='mb-3'>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Title:</label>
             <input id='name' type="text" name='name' className='form-control'
               placeholder='Type the name of the movie'
               onChange={e => setValues({ ...values, name: e.target.value })}

@@ -32,7 +32,7 @@ function Read() {
       <h1 className='text-center'>Movie Details</h1>
       <div className='pb-3'>
         <div className='mb-2'>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name">Title:</label>
           <input
             id='name'
             type="text"
@@ -49,7 +49,6 @@ function Read() {
             type="text"
             name='genre'
             className='form-control'
-            placeholder='Type the new genre of the movie'
             value={values.genre}
             readOnly
           />
@@ -61,12 +60,11 @@ function Read() {
             type="text"
             name='year'
             className='form-control'
-            placeholder='Type the new release date of the movie'
             value={values.year}
             readOnly
           />
         </div>
-        <Link to="/" className='btn btn-secondary float-end mb-5'>Back</Link>
+        <Link to="/" className='btn btn-danger float-end mb-5'>Back</Link>
       </div>
     </div>
   );
