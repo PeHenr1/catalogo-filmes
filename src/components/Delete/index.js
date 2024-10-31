@@ -13,8 +13,6 @@ function Delete() {
     year: ''
   });
 
-  const navigate = useNavigate();
-
   useEffect(() => {
     document.body.style.overflowY = 'scroll';
     return () => {
